@@ -1,0 +1,195 @@
+/*body*/
+body{ 
+    background-color:#F2F2F2; ;
+    margin: 0px; 
+    padding: 0px; 
+}
+
+#header{
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    font-size: 36px;
+    height: 62px;
+    padding-top: 10px;
+    background: black;
+    color: #50FF44;
+}
+
+.ad_img_div{
+    width: 100%;
+    text-align: center;
+    margin-top:24px;
+}
+
+#body{
+    width:620px;
+    height:446px;
+    margin:auto;
+    margin-top: 24px;
+}
+
+#comic_cover{
+    float: left;
+}
+
+#comicImg{
+    border: 4px solid #000000;
+    width:292px;
+    height:438px;
+}
+
+#comicData{
+    float:left;
+    width: 317px;
+}
+
+#comicTitle{
+    font-family: "Roboto", sans-serif;
+    background-color: #000000;
+    height: 44px;
+    padding-top: 8px;
+    font-size: 36px;
+    text-align: center;
+    color: #FFFFFF;
+    line-height: 36px;
+}
+
+#comicInformation{
+    margin-top:16px;
+    margin-left: 20px;
+}
+
+.informationList{
+    margin-top:8px;
+}
+
+.informationList>.title{
+    display: inline-block;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    margin-right: 20px;
+    width:52px;
+    color: #000000;
+    line-height: 24px;
+}
+
+.informationList>.content>.score{
+    margin-right: 10px;
+}
+
+#comicIntroduction>.introductionTitle{
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    margin-top:24px;
+    margin-bottom: 9px;
+}
+
+#chapters_div{
+    margin:auto;
+    margin-top: 24px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    width: 620px;
+    height: 150px;
+}
+
+#chapters_div>#chaptersTitle{
+    background-color: #000000;
+    padding-top:8px;
+    width: 181px;
+    height: 36px;
+    font-size: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#chapters_div>#chapters{
+    border: 4px solid #000000;
+    height: 98px;
+}
+
+.chaptersList{
+    padding-left: 20px;
+    height:42px;
+    line-height: 42px;
+}
+
+.chaptersList:hover{ 
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+#chapters_div>#chapters>.chaptersList>#newList{
+    background-color: #50FF44;
+    display: inline-block;
+    width: 55px;
+    margin-left:16px;
+    text-align: center;
+}
+
+
+#comic_control{
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    height: 35px;
+    width: 620px;
+    margin: auto;
+    margin-top: 16px;
+}
+
+.control_icon{
+    line-height: 35px;
+    margin-left: 10px;
+}
+
+.control{
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    height: 100%;
+    width: 127px;
+    border: 2px solid #000000;
+}
+
+#light_control_div{
+    float: right;
+}
+
+#comic_page{
+    margin:auto;
+    margin-top: 24px;
+    width: 780px;
+    height: 930px;
+}
+
+#currently_page{
+    float: left;
+    width: 620px;
+    height: 930px;
+}
+
+.turnPage{
+    float: left;
+    width:80px;
+    height: 930px;
+    text-align: center;
+}
+
+.turnPage:hover{
+    background-color: #000000;
+    color: #50FF44;
+}
+
+.fa-3x{
+    line-height: 930px;
+}
+
+#page_list{
+    margin-top:10px;
+    height:177px;
+}
+
